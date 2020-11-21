@@ -1,9 +1,15 @@
 import React from 'react';
+import 'normalize.css';
+import './app.css'
+import RandomQuote from './legos/random-quote/RandomQuote';
+
 
 function App() {
   return (
-    <h1>App</h1>
-  )
+    <div className="container">
+      <RandomQuote />
+    </div>
+  );
 }
 
 export default App;

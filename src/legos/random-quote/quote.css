@@ -1,0 +1,50 @@
+blockquote {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  margin: 1.5em 0 1.5em -1.5em;
+  padding: 0.75em 0.5em 0.75em 1em;
+  border-left: 0.5em solid #26abf8;
+  background: #fff;
+  text-align: left;
+  position: relative;
+}
+blockquote:before {
+  content: "\201C";
+  font-size: 9em;
+  position: absolute;
+  color: #333333;
+  left: -15px;
+  top: -25px;
+  opacity: 0.5;
+}
+blockquote h1 {
+  font-size: 2em;
+  color: #333;
+}
+blockquote small {
+  display: block;
+  font-style: italic;
+  color: #26abf8;
+  font-weight: bold;
+  font-size: 1em;
+}
+button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #26abf8;
+  outline: none;
+}
+button:hover,
+button:focus {
+  background-color: #2296da;
+}
