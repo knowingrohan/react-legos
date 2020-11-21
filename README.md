@@ -1,10 +1,19 @@
-# React Legos
+# React Legos :
+**Project to demonstrate various react concepts and their usage in the form of multiple apps termed as *legos.***
+
+## Legos
+
+ 1. **Random Quote Generator** : App to generate a random quote from a given quotes list. Demonstrates the usage of `useState()`  react hook. Learn more [here](https://reactjs.org/docs/hooks-state.html)
+ 
+
+## Build & Setup Details: 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
 In the project directory, you can run:
+
+### `npm install`
+To install the dependencies and node packages.
 
 ### `npm start`
 
@@ -16,9 +25,4 @@ You will also see any lint errors in the console.
 
 
 ### `npm run build`
-
 Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
