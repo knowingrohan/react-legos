@@ -1,6 +1,8 @@
 # React Legos :
 **Project to demonstrate various react concepts and their usage in the form of multiple apps termed as *legos.***
 
+## DEMO LINK : [https://reactlegos.netlify.app/](https://reactlegos.netlify.app/)
+
 ## Legos
 
  1. **Random Quote Generator** : App to generate a random quote from a given quotes list. Demonstrates the usage of `useState()`  react hook. Learn more [here](https://reactjs.org/docs/hooks-state.html)
