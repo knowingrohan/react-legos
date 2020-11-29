@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React Legos",
+  "name": "React Legos - Mini projects to implement react concepts",
   "icons": [
     {
       "src": "favicon.ico",

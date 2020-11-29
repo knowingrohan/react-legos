@@ -8,4 +8,27 @@ html {
   max-width: 70vw;
   margin: 0 auto;
   text-align: center;
+  margin-top: 2em;
+}
+
+button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #26abf8;
+  outline: none;
+}
+button:hover,
+button:focus {
+  background-color: #2296da;
 }
